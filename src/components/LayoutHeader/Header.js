@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * @emails react-core
@@ -190,7 +190,7 @@ const Header = ({location}: {location: Location}) => (
               },
             }}
             to="/versions">
-            v{version}
+            版本:v{version}
           </Link>
           <Link
             css={{
@@ -220,7 +220,7 @@ const Header = ({location}: {location: Location}) => (
                   display: 'none',
                 },
               }}>
-              Languages
+              语言
             </span>
           </Link>
           <a
@@ -244,7 +244,7 @@ const Header = ({location}: {location: Location}) => (
                 display: 'none',
               },
             }}
-            href="https://github.com/facebook/react/"
+            href="https://github.com/MagicXStudio/reactjs.org"
             target="_blank"
             rel="noopener">
             GitHub

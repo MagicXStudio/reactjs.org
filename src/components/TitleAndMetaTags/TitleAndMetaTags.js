@@ -11,7 +11,7 @@ import {urlRoot} from 'site-constants';
 // $FlowFixMe This is a valid path
 import languages from '../../../content/languages.yml';
 
-const defaultDescription = 'A JavaScript library for building user interfaces';
+const defaultDescription = '一个构建大型复杂 Web App的JavaScript库';
 
 type Props = {
   title: string,
@@ -43,7 +43,7 @@ const alternatePages = canonicalUrl => {
 };
 
 const defaultPage = canonicalUrl => {
-  return canonicalUrl.replace(urlRoot, 'https://reactjs.org');
+    return canonicalUrl.replace(urlRoot, 'http://117.50.40.186:8000/');
 };
 
 const TitleAndMetaTags = ({

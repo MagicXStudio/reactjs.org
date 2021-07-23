@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * @emails react-core
@@ -50,7 +50,7 @@ class Home extends Component {
     return (
       <Layout location={location}>
         <TitleAndMetaTags
-          title="React &ndash; A JavaScript library for building user interfaces"
+         title="一个构建大型复杂 Web App的JavaScript库"
           canonicalUrl={createCanonicalUrl('/')}
         />
         <div
@@ -119,7 +119,7 @@ class Home extends Component {
                         fontSize: 60,
                       },
                     }}>
-                    React
+                   【React】
                   </h1>
                   <p
                     css={{
@@ -141,7 +141,7 @@ class Home extends Component {
                         fontSize: 30,
                       },
                     }}>
-                    A JavaScript library for building user interfaces
+                     一个构建大型复杂 Web App的JavaScript库
                   </p>
                   <Flex
                     valign="center"
@@ -159,12 +159,12 @@ class Home extends Component {
                       <ButtonLink
                         to="/docs/getting-started.html"
                         type="primary">
-                        Get Started
+                        我们开始吧！
                       </ButtonLink>
                     </CtaItem>
                     <CtaItem>
                       <ButtonLink to="/tutorial/tutorial.html" type="secondary">
-                        Take the Tutorial
+                        走起！
                       </ButtonLink>
                     </CtaItem>
                   </Flex>

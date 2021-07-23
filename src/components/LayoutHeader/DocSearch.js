@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * @emails react-core
@@ -97,8 +97,8 @@ class DocSearch extends Component<{}, State> {
           }}
           id="algolia-doc-search"
           type="search"
-          placeholder="Search"
-          aria-label="Search docs"
+          placeholder="搜索"
+          aria-label="在文档中搜索..."
         />
       </form>
     ) : null;
