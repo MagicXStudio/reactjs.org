@@ -7,6 +7,8 @@
 import ButtonLink from 'components/ButtonLink';
 import Container from 'components/Container';
 import Flex from 'components/Flex';
+import store from 'store/index'
+import { Provider, useSelector, useDispatch } from 'react-redux'
 import CodeExample from 'components/CodeExample';
 import PropTypes from 'prop-types';
 import React, {Component} from 'react';
