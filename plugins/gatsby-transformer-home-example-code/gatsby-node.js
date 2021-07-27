@@ -3,8 +3,6 @@
  */
 
 const crypto = require('crypto');
-const path = require('path');
-
 const createContentDigest = obj =>
   crypto
     .createHash(`md5`)

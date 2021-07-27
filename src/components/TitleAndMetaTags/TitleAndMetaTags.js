@@ -11,7 +11,7 @@ import {urlRoot} from 'site-constants';
 // $FlowFixMe This is a valid path
 import languages from '../../../content/languages.yml';
 
-const defaultDescription = 'Ò»¸ö¹¹½¨´óÐÍ¸´ÔÓ Web AppµÄJavaScript¿â';
+const defaultDescription = 'Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ï¿½ï¿½ Web Appï¿½ï¿½JavaScriptï¿½ï¿½';
 
 type Props = {
   title: string,
@@ -43,7 +43,7 @@ const alternatePages = canonicalUrl => {
 };
 
 const defaultPage = canonicalUrl => {
-    return canonicalUrl.replace(urlRoot, 'http://117.50.40.186:8000/');
+  return canonicalUrl.replace(urlRoot, 'http://117.50.40.186:8000/');
 };
 
 const TitleAndMetaTags = ({

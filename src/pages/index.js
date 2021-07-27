@@ -8,12 +8,12 @@ import ButtonLink from 'components/ButtonLink';
 import Container from 'components/Container';
 import Flex from 'components/Flex';
 import Welcome from 'components/Welcome';
-import store from 'store/index'
-import { Provider, useSelector, useDispatch } from 'react-redux'
+import store from 'store/index';
+import {Provider, useSelector, useDispatch} from 'react-redux';
 import CodeExample from 'components/CodeExample';
 import PropTypes from 'prop-types';
-import React, { Component } from 'react';
-import { Button, message, notification } from 'antd';
+import React, {Component} from 'react';
+import {Button, message, notification} from 'antd';
 import {graphql} from 'gatsby';
 import TitleAndMetaTags from 'components/TitleAndMetaTags';
 import Layout from 'components/Layout';
@@ -54,10 +54,10 @@ class Home extends Component {
     return (
       <Layout location={location}>
         <TitleAndMetaTags
-         title="一个构建大型复杂 Web App的JavaScript库"
+          title="一个构建大型复杂 Web App的JavaScript库"
           canonicalUrl={createCanonicalUrl('/')}
         />
-        <Welcome value='Hello'></Welcome>
+        <Welcome value="Hello"></Welcome>
         <div
           css={{
             width: '100%',
@@ -110,7 +110,6 @@ class Home extends Component {
                   position: 'relative',
                 }}>
                 <Container>
-                
                   <h1
                     css={{
                       color: colors.brand,
@@ -125,7 +124,7 @@ class Home extends Component {
                         fontSize: 60,
                       },
                     }}>
-                   【React】
+                    【React】
                   </h1>
                   <p
                     css={{
@@ -147,10 +146,9 @@ class Home extends Component {
                         fontSize: 30,
                       },
                     }}>
-                                    一个构建大型复杂 Web App的JavaScript库
-                    
+                    一个构建大型复杂 Web App的JavaScript库
                   </p>
-                  
+
                   <Flex
                     valign="center"
                     halign="center"
@@ -172,9 +170,17 @@ class Home extends Component {
                     </CtaItem>
                     <CtaItem>
                       <ButtonLink to="/tutorial/tutorial.html" type="secondary">
-                                            走起！
+                        走起！
                       </ButtonLink>
-                                        <Button type="link" size="large" onClick={() => { window.alert('Hi Ant-Design for React...'); console.log(this); }}>@ant-design</Button>
+                      <Button
+                        type="link"
+                        size="large"
+                        onClick={() => {
+                          window.alert('Hi Ant-Design for React...');
+                          console.log(this);
+                        }}>
+                        @ant-design
+                      </Button>
                     </CtaItem>
                   </Flex>
                 </Container>
