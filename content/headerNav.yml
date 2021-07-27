@@ -14,3 +14,6 @@
   - title: 敬告
     to: /warnings/legacy-factories.html
     activeSelector: /warnings
+  - title: DDD
+    to: /ddd
+    activeSelector: /ddd

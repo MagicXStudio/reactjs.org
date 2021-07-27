@@ -1,11 +1,11 @@
-community:
-  title: Community
+﻿community:
+  title: 社区
 
 docs:
-  title: Docs
+  title: 文档
 
 more:
-  title: More
+  title: 更多
   items:
     - title: Tutorial
       to: /tutorial/tutorial.html
