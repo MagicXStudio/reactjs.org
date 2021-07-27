@@ -5,3 +5,5 @@ node_modules
 public
 yarn-error.log
 /.vs
+/package-lock.json
+/.vscode

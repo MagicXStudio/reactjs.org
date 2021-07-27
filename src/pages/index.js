@@ -7,6 +7,7 @@ import 'antd/dist/antd.css';
 import ButtonLink from 'components/ButtonLink';
 import Container from 'components/Container';
 import Flex from 'components/Flex';
+import Welcome from 'components/Welcome';
 import store from 'store/index'
 import { Provider, useSelector, useDispatch } from 'react-redux'
 import CodeExample from 'components/CodeExample';
@@ -56,6 +57,7 @@ class Home extends Component {
          title="一个构建大型复杂 Web App的JavaScript库"
           canonicalUrl={createCanonicalUrl('/')}
         />
+        <Welcome value='Hello'></Welcome>
         <div
           css={{
             width: '100%',
@@ -108,6 +110,7 @@ class Home extends Component {
                   position: 'relative',
                 }}>
                 <Container>
+                
                   <h1
                     css={{
                       color: colors.brand,
@@ -144,8 +147,10 @@ class Home extends Component {
                         fontSize: 30,
                       },
                     }}>
-                     一个构建大型复杂 Web App的JavaScript库
+                                    一个构建大型复杂 Web App的JavaScript库
+                    
                   </p>
+                  
                   <Flex
                     valign="center"
                     halign="center"
