@@ -3,6 +3,7 @@
     "url": "https://github.com/reactjs/reactjs.org"
   },
   "dependencies": {
+    "antd": "^4.14.0",
     "babel-eslint": "^8.0.1",
     "eslint": "^4.8.0",
     "eslint-config-fbjs": "^2.0.0",

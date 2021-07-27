@@ -3,7 +3,7 @@
  *
  * @emails react-core
  */
-
+import 'antd/dist/antd.css';
 import ButtonLink from 'components/ButtonLink';
 import Container from 'components/Container';
 import Flex from 'components/Flex';
@@ -11,7 +11,8 @@ import store from 'store/index'
 import { Provider, useSelector, useDispatch } from 'react-redux'
 import CodeExample from 'components/CodeExample';
 import PropTypes from 'prop-types';
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import { Button, message, notification } from 'antd';
 import {graphql} from 'gatsby';
 import TitleAndMetaTags from 'components/TitleAndMetaTags';
 import Layout from 'components/Layout';
@@ -166,8 +167,9 @@ class Home extends Component {
                     </CtaItem>
                     <CtaItem>
                       <ButtonLink to="/tutorial/tutorial.html" type="secondary">
-                        走起！
+                                            走起！
                       </ButtonLink>
+                                        <Button type="link" size="large" onClick={() => { window.alert('Hi Ant-Design for React...'); console.log(this); }}>@ant-design</Button>
                     </CtaItem>
                   </Flex>
                 </Container>
